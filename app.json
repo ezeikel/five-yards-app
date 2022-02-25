@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "five-yards-app",
-    "slug": "five-yards-app",
+    "name": "Five Yards",
+    "slug": "five-yards",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/icon.jpg",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -19,9 +19,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "co.fiveyards.app",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "co.fiveyards.app",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
